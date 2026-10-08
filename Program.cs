@@ -76,7 +76,7 @@ internal static class Program
         return 0;
     }
 
-    // Visual Studio runs the program from bin\Debug\..., not from the project folder.
+    
     // Walk up from there until we find the gamelist.txt that sits next to the .csproj,
     // so Rebuild does not throw the saved dates away.
     private static string FindListFolder()
