@@ -1,2 +1,2 @@
 # GamePicker
-This a C# console app that picks a random game from my list of games. It cannot pick the same game within 20day. The 20 day memory is stored in a .jason file
+This a C# console app that picks a random game from my list of games. It cannot pick the same game within 20day. The 20 day memory is stored in a .json file. If the game has already been picked in todays date - 21 then it will re run the picking logic until it has picked a viable game or until is it tried 100,000 times. if it reaches 100,000 tries it will then tell you no game is viable to be picked. This is highly unlikely though.
